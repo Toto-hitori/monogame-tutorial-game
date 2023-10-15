@@ -2,6 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System;
+using tutorialGame.Classes;
 
 namespace tutorialGame
 {
@@ -13,7 +14,7 @@ namespace tutorialGame
         private Texture2D _background_celeste;
         public float scale = 0.44444f;
         private Player _player;
-
+        private Collisions_1 _collisions1;
         private MouseState prevMouseState;
         private Texture2D _cursor;
         private Vector2 cursorPos = Vector2.Zero;
@@ -30,6 +31,7 @@ namespace tutorialGame
         {
             // TODO: Add your initialization logic here
             _player = new Player(Content);
+            _collisions1 = new Collisions_1();
             base.Initialize();
             TargetElapsedTime = TimeSpan.FromSeconds(1.0 / 60.0f);
             IsFixedTimeStep = true;
@@ -81,8 +83,9 @@ namespace tutorialGame
             _spriteBatch.Begin();
             _spriteBatch.Draw(_background_celeste, Vector2.One, null, Color.Pink);
 
-            _spriteBatch.Draw(_cursor, cursorPos, Color.White);
-            _player.Draw(_spriteBatch);
+            //_spriteBatch.Draw(_cursor, cursorPos, Color.White);
+            //_player.Draw(_spriteBatch);
+            _collisions1.Draw(_graphics.GraphicsDevice, _spriteBatch);
             _spriteBatch.End();
 
             GraphicsDevice.SetRenderTarget(null);

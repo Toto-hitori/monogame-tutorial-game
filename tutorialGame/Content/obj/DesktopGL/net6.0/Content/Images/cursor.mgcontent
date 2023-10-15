@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>D:/Monogame/tutorialGame/tutorialGame/Content/Images/cursor.png</SourceFile>
-  <SourceTime>2023-10-10T11:29:34.4607124+02:00</SourceTime>
-  <DestFile>D:/Monogame/tutorialGame/tutorialGame/Content/bin/DesktopGL/Content/Images/cursor.xnb</DestFile>
-  <DestTime>2023-10-10T11:34:55.7501012+02:00</DestTime>
+  <SourceFile>C:/Users/dario/Desktop/GameDev/monogame-tutorial-game/tutorialGame/Content/Images/cursor.png</SourceFile>
+  <SourceTime>2023-10-15T17:25:32.2957787+02:00</SourceTime>
+  <DestFile>C:/Users/dario/Desktop/GameDev/monogame-tutorial-game/tutorialGame/Content/bin/DesktopGL/Content/Images/cursor.xnb</DestFile>
+  <DestTime>2023-10-15T18:05:06.3247132+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

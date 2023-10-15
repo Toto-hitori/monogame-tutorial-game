@@ -1,11 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "qCaXQsqLNu5U3Oh1eNNhqMvuomDCV1TFBaowddwq2nUf7zgDxxIDyq6sECZkZMIN4JMJZoP6FzUNWgHVDgihfg==",
+  "dgSpecHash": "yKnDi8+/deTKNK+QC42m3vNf3QMXi0aWlvjlDpdSqs4zyMJt2AVrx41h4paI3hid81rqje+kMpTv2p/9nNhRQw==",
   "success": true,
-  "projectFilePath": "D:\\Monogame\\tutorialGame\\tutorialGame\\tutorialGame.csproj",
+  "projectFilePath": "C:\\Users\\dario\\Desktop\\GameDev\\monogame-tutorial-game\\tutorialGame\\tutorialGame.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dario\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
-    "C:\\Users\\dario\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+    "C:\\Users\\dario\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\dario\\.nuget\\packages\\monogame.primitives2d\\1.1.1\\monogame.primitives2d.1.1.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"MonoGame.Primitives2D 1.1.1\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net6.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "MonoGame.Primitives2D",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

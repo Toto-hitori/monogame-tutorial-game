@@ -4,9 +4,9 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>D:/Monogame/tutorialGame/tutorialGame/Content/Images/Backgrounds/celeste-mountain.png</File>
-    <File>D:/Monogame/tutorialGame/tutorialGame/Content/Images/cursor.png</File>
-    <File>D:/Monogame/tutorialGame/tutorialGame/Content/merasmus-noback.png</File>
+    <File>C:/Users/dario/Desktop/GameDev/monogame-tutorial-game/tutorialGame/Content/Images/Backgrounds/celeste-mountain.png</File>
+    <File>C:/Users/dario/Desktop/GameDev/monogame-tutorial-game/tutorialGame/Content/Images/cursor.png</File>
+    <File>C:/Users/dario/Desktop/GameDev/monogame-tutorial-game/tutorialGame/Content/merasmus-noback.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />
