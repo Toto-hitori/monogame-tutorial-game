@@ -1,0 +1,4 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"D:/Monogame/tutorialGame/tutorialGame/Content/Images/Backgrounds/celeste-mountain.png","D:/Monogame/tutorialGame/tutorialGame/Content/bin/DesktopGL/Images/Backgrounds/celeste-mountain.xnb","TextureProcessor","Texture2DContent",633695,8294485,0.5156146
+"D:/Monogame/tutorialGame/tutorialGame/Content/Images/cursor.png","D:/Monogame/tutorialGame/tutorialGame/Content/bin/DesktopGL/Images/cursor.xnb","TextureProcessor","Texture2DContent",324,4181,0.1346551
+"D:/Monogame/tutorialGame/tutorialGame/Content/merasmus-noback.png","D:/Monogame/tutorialGame/tutorialGame/Content/bin/DesktopGL/merasmus-noback.xnb","TextureProcessor","Texture2DContent",126805,4665685,0.2313057
