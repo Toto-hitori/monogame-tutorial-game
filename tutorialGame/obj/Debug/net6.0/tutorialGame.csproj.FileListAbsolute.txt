@@ -55,3 +55,4 @@ C:\Users\dario\Desktop\GameDev\monogame-tutorial-game\tutorialGame\obj\Debug\net
 C:\Users\dario\Desktop\GameDev\monogame-tutorial-game\tutorialGame\obj\Debug\net6.0\tutorialGame.genruntimeconfig.cache
 C:\Users\dario\Desktop\GameDev\monogame-tutorial-game\tutorialGame\obj\Debug\net6.0\ref\tutorialGame.dll
 C:\Users\dario\Desktop\GameDev\monogame-tutorial-game\tutorialGame\bin\Debug\net6.0\MonoGame.Primitives2D.dll
+D:\Monogame\tutorialGame\tutorialGame\bin\Debug\net6.0\MonoGame.Primitives2D.dll

@@ -66,7 +66,7 @@ namespace tutorialGame
             {
 
             }
-
+            _collisions1.Update(gameTime,scale);
             
             prevMouseState = mouseState;
             base.Update(gameTime);

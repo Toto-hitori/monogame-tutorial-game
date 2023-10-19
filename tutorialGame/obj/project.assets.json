@@ -130,30 +130,34 @@
   },
   "packageFolders": {
     "C:\\Users\\dario\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dario\\Desktop\\GameDev\\monogame-tutorial-game\\tutorialGame\\tutorialGame.csproj",
+      "projectUniqueName": "D:\\Monogame\\tutorialGame\\tutorialGame\\tutorialGame.csproj",
       "projectName": "tutorialGame",
-      "projectPath": "C:\\Users\\dario\\Desktop\\GameDev\\monogame-tutorial-game\\tutorialGame\\tutorialGame.csproj",
+      "projectPath": "D:\\Monogame\\tutorialGame\\tutorialGame\\tutorialGame.csproj",
       "packagesPath": "C:\\Users\\dario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dario\\Desktop\\GameDev\\monogame-tutorial-game\\tutorialGame\\obj\\",
+      "outputPath": "D:\\Monogame\\tutorialGame\\tutorialGame\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\dario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -201,7 +205,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   },
