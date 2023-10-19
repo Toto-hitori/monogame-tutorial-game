@@ -14,27 +14,26 @@ namespace tutorialGame.Classes
 {
     class CustomRectangle
     {
-        public Vector2 Pos { get; set; }
+        public Vector2 Pos;
         public float Width { get { return _size.X; } set { _size.X = value; } }
         public float Height { get { return _size.Y; } set { _size.Y = value; } }
         public float Rotation { get; set; }
         public Color Color { get; set; }
 
-        private Vector2 _pos;
         private Vector2 _size;
         private float rotation;
         private Color color = Color.White;
 
         public CustomRectangle(Vector2 pos, Vector2 size, float rotation, Color color)
         {
-            this._pos = pos;
+            this.Pos = pos;
             this._size = size;
             this.rotation = rotation;
             this.color = color;
         }
         public Rectangle ToRectangle()
         {
-            return new Rectangle((int)_pos.X, (int)_pos.Y, (int)_size.X,(int)_size.Y);
+            return new Rectangle((int)Pos.X, (int)Pos.Y, (int)_size.X,(int)_size.Y);
         }
     }
     internal class Collisions_1
